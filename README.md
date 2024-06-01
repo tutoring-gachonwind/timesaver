@@ -8,7 +8,7 @@
 
 
 ---
-####개발 단계
+#### 개발 단계
 1.  ui를 pyqt5 designer를 통해 디자인
 2.  ui의 파일과 파이썬 코드를 연결
 3.  프로그레스 바 구현
@@ -21,20 +21,20 @@
 
 
 ------
-###디렉토리 구조
+#### 디렉토리 구조
 -timesaver_python_file.py
 -timesaver.ui
 
 ------
-###개발 라이브러리
+#### 개발 라이브러리
 1. PYQT5
 2. QTHREAD
 
 
 --------------
-###PESEUDO CODE
+#### PESEUDO CODE
 
-UI 필요한 목록: 시간 입력 창, 현재 업무 표시 테이블, QPUSHBUTTON, PROGRESS BAR, 
+UI 필요한 목록: 시간 입력 창, 현재 업무 표시 테이블, QPUSHBUTTON, PROGRESS BAR,   
 PYTHON:
 1. UI IMPORT, CONNECT SIGNAL
    -PROGRESS BAR
@@ -45,7 +45,7 @@ PYTHON:
 
 
 -----------
-###작동방식
+#### 작동방식
 1. 시간과 업무를 작성 한 후 입력 버튼 클릭
 2.  타이머가 호출되고 프로그레스 바가 진행, 현재 업무가 표시 됨
 3.  프로그레스 바가 100%에 도달하는 동시에 타이머가 종료되고 완료되었다는 메시지가 출력 됨.  
